@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="355773cc-b365-4377-a373-b728d6f71275" name="Default Changelist" comment="" />
+    <list default="true" id="355773cc-b365-4377-a373-b728d6f71275" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/kodilla-jdbc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/kodilla-jdbc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.jdbc.DbManagerTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.jdbc.DbManagerTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.jdbc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.jdbc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.jdbc.DbManagerTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.jdbc.DbManagerTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,48 +57,36 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VLIhYp3cYLCgvUHTDTsSGZtqJ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/mysql/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.DbManagerTestSuite.testSelectUsersAndPosts">
+  <component name="RunManager" selected="Gradle.KodillaHibernateApplicationTests">
     <configuration name="DbManagerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.kodilla.jdbc.DbManagerTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DbManagerTestSuite.testConnect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.jdbc.DbManagerTestSuite.testConnect&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -115,6 +141,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="KodillaHibernateApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.KodillaHibernateApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'com.kodilla.jdbc'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KodillaHibernateApplicationTests" />
         <item itemvalue="Gradle.DbManagerTestSuite.testSelectUsersAndPosts" />
         <item itemvalue="Gradle.DbManagerTestSuite.testSelectUsers" />
         <item itemvalue="Gradle.DbManagerTestSuite" />
         <item itemvalue="Gradle.Tests in 'com.kodilla.jdbc'" />
-        <item itemvalue="Gradle.DbManagerTestSuite.testConnect" />
       </list>
     </recent_temporary>
   </component>
@@ -168,45 +214,53 @@
       <option name="presentableId" value="Default" />
       <updated>1577026067583</updated>
       <workItem from="1577026074451" duration="1601000" />
-      <workItem from="1577027701582" duration="4415000" />
+      <workItem from="1577027701582" duration="4885000" />
+      <workItem from="1577972538373" duration="5204000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="215" key="#Project_Structure" timestamp="1577027207949">
+    <state x="51" y="66" key="#Project_Structure" timestamp="1577975943959">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="0" y="215" key="#Project_Structure/0.0.1600.900@0.0.1600.900" timestamp="1577027207949" />
+    <state x="51" y="66" key="#Project_Structure/0.0.1600.900@0.0.1600.900" timestamp="1577975943959" />
     <state x="202" y="275" key="FileChooserDialogImpl" timestamp="1577028720140">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="202" y="275" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1577028720140" />
-    <state width="1540" height="288" key="GridCell.Tab.0.bottom" timestamp="1577032918724">
+    <state width="1556" height="430" key="GridCell.Tab.0.bottom" timestamp="1577976888245">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1540" height="288" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1577032918724" />
-    <state width="1540" height="288" key="GridCell.Tab.0.center" timestamp="1577032918723">
+    <state width="1556" height="430" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1577976888245" />
+    <state width="1556" height="430" key="GridCell.Tab.0.center" timestamp="1577976888244">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1540" height="288" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1577032918723" />
-    <state width="1540" height="288" key="GridCell.Tab.0.left" timestamp="1577032918723">
+    <state width="1556" height="430" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1577976888244" />
+    <state width="1556" height="430" key="GridCell.Tab.0.left" timestamp="1577976888244">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1540" height="288" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1577032918723" />
-    <state width="1540" height="288" key="GridCell.Tab.0.right" timestamp="1577032918724">
+    <state width="1556" height="430" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1577976888244" />
+    <state width="1556" height="430" key="GridCell.Tab.0.right" timestamp="1577976888245">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1540" height="288" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1577032918724" />
+    <state width="1556" height="430" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1577976888245" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1577028802416">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1577028802416" />
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1577027701933">
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1577972545221">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1577027701933" />
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1577972545221" />
+    <state x="323" y="0" key="new project wizard" timestamp="1577972697971">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="323" y="0" key="new project wizard/0.0.1600.900@0.0.1600.900" timestamp="1577972697971" />
   </component>
 </project>
