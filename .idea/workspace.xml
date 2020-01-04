@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355773cc-b365-4377-a373-b728d6f71275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/InvoiceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/TaskFinancialDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -27,21 +13,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/tasklist/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/tasklist/TaskList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.tasklist.dao.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.invoice.dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.invoice.dao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +216,8 @@
       <workItem from="1577027701582" duration="4885000" />
       <workItem from="1577972538373" duration="24489000" />
       <workItem from="1578059239959" duration="10458000" />
-      <workItem from="1578074170132" duration="5193000" />
+      <workItem from="1578074170132" duration="10154000" />
+      <workItem from="1578127726786" duration="916000" />
     </task>
     <servers />
   </component>
@@ -242,10 +228,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="107" key="#Assign_Data_Sources" timestamp="1577997083668">
+    <state x="392" y="107" key="#Assign_Data_Sources" timestamp="1578086427343">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="392" y="107" key="#Assign_Data_Sources/0.0.1600.900@0.0.1600.900" timestamp="1577997083668" />
+    <state x="392" y="107" key="#Assign_Data_Sources/0.0.1600.900@0.0.1600.900" timestamp="1578086427343" />
     <state x="392" y="107" key="#Inspections" timestamp="1578074740244">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -258,6 +244,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="530" y="204" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1577994616334" />
+    <state x="556" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578083783541">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="556" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1578083783541" />
     <state x="605" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1578068784229">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -266,30 +256,30 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="202" y="275" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1577028720140" />
-    <state width="1556" height="188" key="GridCell.Tab.0.bottom" timestamp="1578079398946">
+    <state width="778" height="321" key="GridCell.Tab.0.bottom" timestamp="1578128630708">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1556" height="188" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578079398946" />
-    <state width="1556" height="188" key="GridCell.Tab.0.center" timestamp="1578079398946">
+    <state width="778" height="321" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
+    <state width="778" height="321" key="GridCell.Tab.0.center" timestamp="1578128630708">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1556" height="188" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578079398946" />
-    <state width="1556" height="188" key="GridCell.Tab.0.left" timestamp="1578079398946">
+    <state width="778" height="321" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
+    <state width="778" height="321" key="GridCell.Tab.0.left" timestamp="1578128630708">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1556" height="188" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578079398946" />
-    <state width="1556" height="188" key="GridCell.Tab.0.right" timestamp="1578079398946">
+    <state width="778" height="321" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
+    <state width="778" height="321" key="GridCell.Tab.0.right" timestamp="1578128630708">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1556" height="188" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578079398946" />
+    <state width="778" height="321" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1577028802416">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1577028802416" />
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1578074183878">
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1578127732200">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1578074183878" />
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1578127732200" />
     <state x="323" y="0" key="new project wizard" timestamp="1577972697971">
       <screen x="0" y="0" width="1600" height="900" />
     </state>

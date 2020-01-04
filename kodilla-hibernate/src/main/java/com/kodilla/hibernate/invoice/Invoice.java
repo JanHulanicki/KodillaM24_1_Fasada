@@ -24,16 +24,10 @@ public class Invoice {
     public int getId() {
         return id;
     }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     @Column(name = "NUMBER")
     public String getNumber() {
         return number;
     }
-
     public void setNumber(String number) {
         this.number = number;
     }
@@ -46,14 +40,15 @@ public class Invoice {
     public List<Item> getItems() {
         return items;
     }
-
-    public void setItems(List<Item> items) {
+    private void setItems(List<Item> items) {
         this.items = items;
     }
-    public void addItems(Item item){
+    private void addItems(Item item){
         items.add(item);
     }
-
+    private void setId(int id) {
+        this.id = id;
+    }
     @Override
     public String toString() {
         return "Invoice{" +

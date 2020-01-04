@@ -22,7 +22,7 @@ public class Product {
         return id;
     }
 
-    public void setId(int id) {
+    private void setId(int id) {
         this.id = id;
     }
     @NotNull
@@ -30,11 +30,9 @@ public class Product {
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
-
     @OneToMany(
             targetEntity = Item.class,
             mappedBy = "product",
@@ -44,11 +42,9 @@ public class Product {
     public List<Item> getItemList() {
         return itemList;
     }
-
-    public void setItemList(List<Item> itemList) {
+    private void setItemList(List<Item> itemList) {
         this.itemList = itemList;
     }
-
     @Override
     public String toString() {
         return "Product{" +

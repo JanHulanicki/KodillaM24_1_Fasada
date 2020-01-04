@@ -2,6 +2,7 @@ package com.kodilla.hibernate.invoice.dao;
 import com.kodilla.hibernate.invoice.Invoice;
 import com.kodilla.hibernate.invoice.Item;
 import com.kodilla.hibernate.invoice.Product;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class InvoiceDaoTestSuite {
@@ -30,15 +30,17 @@ public class InvoiceDaoTestSuite {
         //When
         invoiceDao.save(invoice1);
         int id = invoice1.getId();
-       // System.out.println(product1.toString());
-       // System.out.println(item1.toString());
-       // System.out.println(item2.toString());
-       // System.out.println(invoice1.toString());
-                //Then
-        //Assert.assertNotEquals(0, id);
-
+        // System.out.println(product1.toString());
+        // System.out.println(item1.toString());
+        // System.out.println(item2.toString());
+        // System.out.println(invoice1.toString());
+        //Then
+        Assert.assertNotEquals(0, id);
         //CleanUp
-        //taskListDao.deleteById(id);
+        try {
+            invoiceDao.deleteAll();
+        } catch (Exception e) {
 
+        }
     }
 }
