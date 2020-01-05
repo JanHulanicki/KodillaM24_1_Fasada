@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355773cc-b365-4377-a373-b728d6f71275" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,20 +15,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/invoice/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/dao/CompanyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/manytomany/dao/CompanyDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/dao/TaskDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/main/com/kodilla/hibernate/task/dao/TaskDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/classes/java/test/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/classes/com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.invoice.dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.invoice.dao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/reports/tests/test/packages/com.kodilla.hibernate.invoice.dao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/TEST-com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/invoice/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -79,13 +89,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave">
-    <configuration name="CompanyDaoTestSuite.testSaveManyToMany" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CompanyDaoTestSuite.testRetrieveCompaniesWithFirst3Chars">
+    <configuration name="CompanyDaoTestSuite.testRetrieveCompaniesWithFirst3Chars" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testSaveManyToMany&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testRetrieveCompaniesWithFirst3Chars&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,12 +110,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InvoiceDaoTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CompanyDaoTestSuite.testRetrieveEmployeesWithLastName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testRetrieveEmployeesWithLastName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -140,12 +150,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskListDaoTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.task.dao.TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,12 +170,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaskListDaoTestSuite.testTaskListDaoSaveWithTasks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskListDaoTestSuite.testNamedQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite.testTaskListDaoSaveWithTasks&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite.testNamedQueries&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testRetrieveCompaniesWithFirst3Chars" />
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testRetrieveEmployeesWithLastName" />
+        <item itemvalue="Gradle.TaskListDaoTestSuite.testNamedQueries" />
+        <item itemvalue="Gradle.TaskListDaoTestSuite" />
         <item itemvalue="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave" />
-        <item itemvalue="Gradle.InvoiceDaoTestSuite" />
-        <item itemvalue="Gradle.CompanyDaoTestSuite.testSaveManyToMany" />
-        <item itemvalue="Gradle.TaskListDaoTestSuite.testTaskListDaoSaveWithTasks" />
-        <item itemvalue="Gradle.TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +227,10 @@
       <workItem from="1577972538373" duration="24489000" />
       <workItem from="1578059239959" duration="10458000" />
       <workItem from="1578074170132" duration="10154000" />
-      <workItem from="1578127726786" duration="916000" />
+      <workItem from="1578127726786" duration="10935000" />
+      <workItem from="1578171833893" duration="20000" />
+      <workItem from="1578237685263" duration="1142000" />
+      <workItem from="1578238910109" duration="7910000" />
     </task>
     <servers />
   </component>
@@ -240,10 +253,18 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="51" y="66" key="#Project_Structure/0.0.1600.900@0.0.1600.900" timestamp="1577979597307" />
+    <state x="386" y="115" key="#SQL_Dialects" timestamp="1578246117796">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="386" y="115" key="#SQL_Dialects/0.0.1600.900@0.0.1600.900" timestamp="1578246117796" />
     <state x="530" y="204" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577994616334">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="530" y="204" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.900@0.0.1600.900" timestamp="1577994616334" />
+    <state x="60" y="115" width="1400" height="531" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578133184605">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="60" y="115" width="1400" height="531" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.900@0.0.1600.900" timestamp="1578133184605" />
     <state x="556" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578083783541">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -256,30 +277,30 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="202" y="275" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1577028720140" />
-    <state width="778" height="321" key="GridCell.Tab.0.bottom" timestamp="1578128630708">
+    <state width="1540" height="314" key="GridCell.Tab.0.bottom" timestamp="1578247585899">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="778" height="321" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
-    <state width="778" height="321" key="GridCell.Tab.0.center" timestamp="1578128630708">
+    <state width="1540" height="314" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578247585899" />
+    <state width="1540" height="314" key="GridCell.Tab.0.center" timestamp="1578247585898">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="778" height="321" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
-    <state width="778" height="321" key="GridCell.Tab.0.left" timestamp="1578128630708">
+    <state width="1540" height="314" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578247585898" />
+    <state width="1540" height="314" key="GridCell.Tab.0.left" timestamp="1578247585894">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="778" height="321" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
-    <state width="778" height="321" key="GridCell.Tab.0.right" timestamp="1578128630708">
+    <state width="1540" height="314" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578247585894" />
+    <state width="1540" height="314" key="GridCell.Tab.0.right" timestamp="1578247585899">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="778" height="321" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578128630708" />
+    <state width="1540" height="314" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578247585899" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1577028802416">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1577028802416" />
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1578127732200">
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1578238923775">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1578127732200" />
+    <state x="511" y="383" key="com.intellij.ide.util.TipDialog/0.0.1600.900@0.0.1600.900" timestamp="1578238923775" />
     <state x="323" y="0" key="new project wizard" timestamp="1577972697971">
       <screen x="0" y="0" width="1600" height="900" />
     </state>

@@ -1,10 +1,13 @@
 package com.kodilla.hibernate.manytomany;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
-
+@NamedNativeQuery(
+        name= "Company.retrieveCompaniesWithFirst3Chars",
+        query = "SELECT * FROM COMPANIES WHERE (substring(COMPANY_NAME,1,3))=:SUBSTR",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -13,11 +16,9 @@ public class Company {
     private List<Employee> employees=new ArrayList<>();
     public Company() {
     }
-
     public Company(String name) {
         this.name = name;
     }
-
     @Id
     @GeneratedValue
     @NotNull
@@ -25,17 +26,14 @@ public class Company {
     public int getId() {
         return id;
     }
-
     @NotNull
     @Column(name = "COMPANY_NAME")
     public String getName() {
         return name;
     }
-
     private void setId(int id) {
         this.id = id;
     }
-
     private void setName(String name) {
         this.name = name;
     }
@@ -43,7 +41,6 @@ public class Company {
     public List<Employee> getEmployees() {
         return employees;
     }
-
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
