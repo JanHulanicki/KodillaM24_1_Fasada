@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.293s</div>
+<div class="counter">0.172s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,17 @@
 </thead>
 <tr>
 <td class="success">testRetrieveCompaniesWithFirst3Chars</td>
-<td class="success">0.293s</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetrieveEmployeesWithLastName</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSaveManyToMany</td>
+<td class="success">0.118s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,64 +97,64 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:09:40.093 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.115 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-19:09:40.143 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-19:09:40.197 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-19:09:40.229 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite], using SpringBootContextLoader
-19:09:40.237 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: class path resource [com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite-context.xml] does not exist
-19:09:40.238 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: class path resource [com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuiteContext.groovy] does not exist
-19:09:40.238 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
-19:09:40.241 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: CompanyDaoTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:09:40.359 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.596 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Dom\IdeaProjects\kodilla-jdbc\kodilla-hibernate\build\classes\java\main\com\kodilla\hibernate\KodillaHibernateApplication.class]
-19:09:40.598 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kodilla.hibernate.KodillaHibernateApplication for test class com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite
-19:09:40.764 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: using defaults.
-19:09:40.766 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-19:09:40.786 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
-19:09:40.802 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48a1d0ca, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35e4dcdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@188fbbb1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b6e593, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40d7420f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53c67cfc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36f11706, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7daf636, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7de71bf8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1da6a924, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2351c4b1]
-19:09:40.807 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.808 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.815 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.815 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.817 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.817 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.824 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@26e257f4 testClass = CompanyDaoTestSuite, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@600a35a3 testClass = CompanyDaoTestSuite, locations = '{}', classes = '{class com.kodilla.hibernate.KodillaHibernateApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42f7799f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7354fb65, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@630ccac7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6358a3c8], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
-19:09:40.825 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.825 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]
-19:09:40.834 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@26e257f4 testClass = CompanyDaoTestSuite, testInstance = com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite@6a8b4efe, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@600a35a3 testClass = CompanyDaoTestSuite, locations = '{}', classes = '{class com.kodilla.hibernate.KodillaHibernateApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42f7799f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7354fb65, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@630ccac7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6358a3c8], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
-19:09:40.869 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.1.3.RELEASE)
-
-2020-01-05 19:09:41.354  INFO 12100 --- [    Test worker] c.k.h.m.dao.CompanyDaoTestSuite          : Starting CompanyDaoTestSuite on Dom-TOSH with PID 12100 (started by Dom in C:\Users\Dom\IdeaProjects\kodilla-jdbc\kodilla-hibernate)
-2020-01-05 19:09:41.356  INFO 12100 --- [    Test worker] c.k.h.m.dao.CompanyDaoTestSuite          : No active profile set, falling back to default profiles: default
-2020-01-05 19:09:42.217  INFO 12100 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-01-05 19:09:42.408  INFO 12100 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175ms. Found 8 repository interfaces.
-2020-01-05 19:09:43.412  INFO 12100 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2020-01-05 19:09:43.501  INFO 12100 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2020-01-05 19:09:43.504  INFO 12100 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-01-05 19:09:43.727  INFO 12100 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-01-05 19:09:43.960  INFO 12100 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-01-05 19:09:44.149  INFO 12100 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-01-05 19:09:44.168  INFO 12100 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Hibernate: alter table items add constraint FKi3fv29v33apu6j1klh8nld3re foreign key (invoice_id) references invoices (invoice_id)
-Hibernate: alter table items add constraint FKmtk37pxnx7d5ck7fkq2xcna4i foreign key (product_id) references products (product_id)
-Hibernate: alter table join_company_employee add constraint FK8qv4sbf5gudy2g20lbjoknvsy foreign key (company_id) references companies (company_id)
-Hibernate: alter table join_company_employee add constraint FKhyidh70ikigdnt5yqddpn795y foreign key (employee_id) references employees (employee_id)
-Hibernate: alter table tasks add constraint FKoc5tyukkgk284esmsxkwe1ncy foreign key (tasks_financials_id) references tasks_financials (id)
-Hibernate: alter table tasks add constraint FKprm86x994fojxdcimjsnmjymp foreign key (tasklist_id) references tasklist (id)
-2020-01-05 19:09:45.900  INFO 12100 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2020-01-05 19:09:46.015  INFO 12100 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-01-05 19:09:47.212  INFO 12100 --- [    Test worker] c.k.h.m.dao.CompanyDaoTestSuite          : Started CompanyDaoTestSuite in 6.338 seconds (JVM running for 8.705)
+<pre>2020-02-19 13:04:59.426  INFO 2504 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite], using SpringBootContextLoader
+2020-02-19 13:04:59.427  INFO 2504 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-02-19 13:04:59.427  INFO 2504 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite]: CompanyDaoTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-02-19 13:04:59.438  INFO 2504 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.hibernate.KodillaHibernateApplication for test class com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite
+2020-02-19 13:04:59.440  INFO 2504 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-02-19 13:04:59.441  INFO 2504 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e8c4926, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@179f2da6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13e8c086, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55b0660c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@929c0e5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@67353e7b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@328c2eeb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@645aaeb0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@23b36436, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6dbb50dd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e13d0f7]
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into companies (company_name, company_id) values (?, ?)
+Hibernate: insert into employees (firstname, lastname, employee_id) values (?, ?, ?)
+Hibernate: insert into companies (company_name, company_id) values (?, ?)
+Hibernate: insert into employees (firstname, lastname, employee_id) values (?, ?, ?)
+Hibernate: insert into companies (company_name, company_id) values (?, ?)
+Hibernate: insert into employees (firstname, lastname, employee_id) values (?, ?, ?)
+Hibernate: insert into join_company_employee (employee_id, company_id) values (?, ?)
+Hibernate: insert into join_company_employee (employee_id, company_id) values (?, ?)
+Hibernate: insert into join_company_employee (employee_id, company_id) values (?, ?)
+Hibernate: insert into join_company_employee (employee_id, company_id) values (?, ?)
+Hibernate: insert into join_company_employee (employee_id, company_id) values (?, ?)
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select company0_.company_id as company_1_0_1_, company0_.company_name as company_2_0_1_, employees1_.company_id as company_2_4_3_, employee2_.employee_id as employee1_4_3_, employee2_.employee_id as employee1_1_0_, employee2_.firstname as firstnam2_1_0_, employee2_.lastname as lastname3_1_0_ from companies company0_ left outer join join_company_employee employees1_ on company0_.company_id=employees1_.company_id left outer join employees employee2_ on employees1_.employee_id=employee2_.employee_id where company0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select company0_.company_id as company_1_0_0_, company0_.company_name as company_2_0_0_ from companies company0_ where company0_.company_id=?
+Hibernate: select employees0_.company_id as company_2_4_0_, employees0_.employee_id as employee1_4_0_, employee1_.employee_id as employee1_1_1_, employee1_.firstname as firstnam2_1_1_, employee1_.lastname as lastname3_1_1_ from join_company_employee employees0_ inner join employees employee1_ on employees0_.employee_id=employee1_.employee_id where employees0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select employees0_.company_id as company_2_4_0_, employees0_.employee_id as employee1_4_0_, employee1_.employee_id as employee1_1_1_, employee1_.firstname as firstnam2_1_1_, employee1_.lastname as lastname3_1_1_ from join_company_employee employees0_ inner join employees employee1_ on employees0_.employee_id=employee1_.employee_id where employees0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: select employees0_.company_id as company_2_4_0_, employees0_.employee_id as employee1_4_0_, employee1_.employee_id as employee1_1_1_, employee1_.firstname as firstnam2_1_1_, employee1_.lastname as lastname3_1_1_ from join_company_employee employees0_ inner join employees employee1_ on employees0_.employee_id=employee1_.employee_id where employees0_.company_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: delete from join_company_employee where employee_id=?
+Hibernate: delete from join_company_employee where employee_id=?
+Hibernate: delete from join_company_employee where employee_id=?
+Hibernate: delete from employees where employee_id=?
+Hibernate: delete from companies where company_id=?
+Hibernate: delete from employees where employee_id=?
+Hibernate: delete from companies where company_id=?
+Hibernate: delete from employees where employee_id=?
+Hibernate: delete from companies where company_id=?
+Hibernate: select company0_.company_id as company_1_0_0_, company0_.company_name as company_2_0_0_ from companies company0_ where company0_.company_id=?
 Hibernate: select next_val as id_val from hibernate_sequence for update
 Hibernate: update hibernate_sequence set next_val= ? where next_val=?
 Hibernate: insert into companies (company_name, company_id) values (?, ?)
@@ -152,6 +162,13 @@ Hibernate: SELECT * FROM COMPANIES WHERE (substring(COMPANY_NAME,1,3))=?
 Hibernate: select company0_.company_id as company_1_0_0_, company0_.company_name as company_2_0_0_ from companies company0_ where company0_.company_id=?
 Hibernate: select employees0_.company_id as company_2_4_0_, employees0_.employee_id as employee1_4_0_, employee1_.employee_id as employee1_1_1_, employee1_.firstname as firstnam2_1_1_, employee1_.lastname as lastname3_1_1_ from join_company_employee employees0_ inner join employees employee1_ on employees0_.employee_id=employee1_.employee_id where employees0_.company_id=?
 Hibernate: delete from companies where company_id=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into employees (firstname, lastname, employee_id) values (?, ?, ?)
+Hibernate: select employee0_.employee_id as employee1_1_, employee0_.firstname as firstnam2_1_, employee0_.lastname as lastname3_1_ from employees employee0_ where employee0_.lastname=?
+Hibernate: select employee0_.employee_id as employee1_1_0_, employee0_.firstname as firstnam2_1_0_, employee0_.lastname as lastname3_1_0_ from employees employee0_ where employee0_.employee_id=?
+Hibernate: select companies0_.employee_id as employee1_4_0_, companies0_.company_id as company_2_4_0_, company1_.company_id as company_1_0_1_, company1_.company_name as company_2_0_1_ from join_company_employee companies0_ inner join companies company1_ on companies0_.company_id=company1_.company_id where companies0_.employee_id=?
+Hibernate: delete from employees where employee_id=?
 </pre>
 </span>
 </div>
@@ -163,7 +180,7 @@ Hibernate: delete from companies where company_id=?
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 2020-01-05 19:09:47</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Feb 19, 2020 1:05:00 PM</p>
 </div>
 </div>
 </body>
