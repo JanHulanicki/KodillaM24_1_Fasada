@@ -13,6 +13,7 @@ import java.util.List;
 public class SearchFacade {
     @Autowired
     private CompanyDao companyDao;
+    @Autowired
     private EmployeeDao employeeDao;
 
     public List<Company> findCompanyWithAnyStr (String str){

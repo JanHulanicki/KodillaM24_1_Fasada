@@ -1,5 +1,4 @@
 package com.kodilla.hibernate.manytomany;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
@@ -13,7 +12,7 @@ import java.util.List;
 @NamedNativeQuery(
         name= "Employee.retrieveEmployeeWithAnyStr",
         query = "SELECT * FROM EMPLOYEES WHERE LASTNAME LIKE CONCAT( '%', :SUBSTR, '%')",
-        resultClass = Company.class
+        resultClass = Employee.class
 )
 
 @Entity
@@ -75,5 +74,13 @@ public class Employee {
 
     public void setCompanies(List<Company> companies) {
         this.companies = companies;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                '}';
     }
 }
