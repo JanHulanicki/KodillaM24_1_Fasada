@@ -11,4 +11,7 @@ import java.util.List;
 public interface CompanyDao extends CrudRepository<Company, Integer> {
     @Query(nativeQuery = true )
     List<Company> retrieveCompaniesWithFirst3Chars(@Param("SUBSTR") String substr);
+    @Query(nativeQuery = true )
+    List<Company> retrieveCompaniesWithAnyStr(@Param("SUBSTR") String substr);
+
 }

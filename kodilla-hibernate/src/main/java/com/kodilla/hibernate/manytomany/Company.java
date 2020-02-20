@@ -8,6 +8,11 @@ import java.util.List;
         query = "SELECT * FROM COMPANIES WHERE (substring(COMPANY_NAME,1,3))=:SUBSTR",
         resultClass = Company.class
 )
+@NamedNativeQuery(
+        name= "Company.retrieveCompaniesWithAnyStr",
+        query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT( '%', :SUBSTR, '%')",
+        resultClass = Company.class
+)
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -43,5 +48,12 @@ public class Company {
     }
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
